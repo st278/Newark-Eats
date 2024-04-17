@@ -1,0 +1,151 @@
+<!-- DEVELOPER Shahriar Topu, IS117-102, Spring 2024 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brunch Restaurants</title>
+    <link rel="shortcut icon" type="image/jpg" href="/images/logo.png"></head>
+
+<!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-md">
+    <!-- Logo -->
+    <a class="navbar-brand" href="index.html">
+        <img src="/images/logo.png" alt="Logo">
+    </a>
+    <!-- Responsive Button for the smaller menu -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ms-auto">
+            <!-- Links -->
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="toprated.html">Top Rated</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Food Types
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="brunch.html">Brunch</a></li>
+                    <li><a class="dropdown-item" href="cafe.html">Drinks</a></li>
+                    <li><a class="dropdown-item" href="others.html">Others</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contactus.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Brunch Restaurants</h2>
+    <div class="row">
+        <!-- Card 1 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="/images/brunch1.jpg" class="card-img-top" alt="Restaurant 1">
+                <div class="card-body">
+                    <h5 class="card-title">Ramen Gami</h5>
+                    <p class="card-text">Address: 123 Main St, Newark, NJ</p>
+                    <p class="card-text">Most Brought Meal: Pancakes</p>
+                    <p class="card-text">Rating: <span class="rating">4.5</span> out of 5</p>
+                </div>
+            </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="/images/brunch2.jpg" class="card-img-top" alt="Restaurant 2">
+                <div class="card-body">
+                    <h5 class="card-title">Playa Bowls</h5>
+                    <p class="card-text">Address: 456 Elm St, Newark, NJ</p>
+                    <p class="card-text">Most Brought Meal: Avocado Toast</p>
+                    <p class="card-text">Rating: <span class="rating">4.7</span> out of 5</p>
+                </div>
+            </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="/images/brunch3.jpg" class="card-img-top" alt="Restaurant 3">
+                <div class="card-body">
+                    <h5 class="card-title">Teriyaki Madness</h5>
+                    <p class="card-text">Address: 789 Oak St, Newark, NJ</p>
+                    <p class="card-text">Most Brought Meal: French Toast</p>
+                    <p class="card-text">Rating: <span class="rating">4.2</span> out of 5</p>
+                </div>
+            </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="/images/brunch4.jpg" class="card-img-top" alt="Restaurant 4">
+                <div class="card-body">
+                    <h5 class="card-title">Sigri BBQ Newark</h5>
+                    <p class="card-text">Address: 987 Elm St, Newark, NJ</p>
+                    <p class="card-text">Most Brought Meal: Waffles</p>
+                    <p class="card-text">Rating: <span class="rating">4.3</span> out of 5</p>
+                </div>
+            </div>
+        </div>
+        <!-- Card 5 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="/images/brunch5.jpg" class="card-img-top" alt="Restaurant 5">
+                <div class="card-body">
+                    <h5 class="card-title">Taco Bell Express</h5>
+                    <p class="card-text">Address: 567 Maple St, Newark, NJ</p>
+                    <p class="card-text">Most Brought Meal: Omelette</p>
+                    <p class="card-text">Rating: <span class="rating">4.6</span> out of 5</p>
+                </div>
+            </div>
+        </div>
+        <!-- Card 6 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="/images/brunch6.jpg" class="card-img-top" alt="Restaurant 6">
+                <div class="card-body">
+                    <h5 class="card-title">Smashburger</h5>
+                    <p class="card-text">Address: 654 Pine St, Newark, NJ</p>
+                    <p class="card-text">Most Brought Meal: Breakfast Burrito</p>
+                    <p class="card-text">Rating: <span class="rating">4.4</span> out of 5</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <span class="text-muted">&copy; Shahriar Topu, 2024 | <a href="#">Terms Of Use</a> | <a href="#">Privacy Statement</a></span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>

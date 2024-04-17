@@ -1,0 +1,186 @@
+/* DEVELOPER Shahriar Topu, IS117-102, Spring 2024 */
+
+/* Reset styles */
+
+.carousel-item img {
+    width: 100%;
+    height: 500px;
+}
+li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FFD2C6;
+}
+
+
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+footer ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.card-body p {
+    margin-bottom: 50px;
+}
+
+
+.navbar {
+    background-color: #8B4513;
+color: #8B4513;
+}
+
+.navbar a:hover, .navbar a:focus {
+    color: #D97458 !important;
+}
+
+.navbar-brand img {
+    height: 100px;
+    margin-right: 10px;
+    margin-left: 100px;
+}
+
+.navbar-nav {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 10px 10px 20px;
+}
+
+.navbar-nav li {
+    margin-right: 100px;
+}
+
+.navbar-nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'custom';
+    src: url('../fonts/ADLaM Display.ttf') format('truetype');
+}
+body {
+    font-family: 'custom', sans-serif;
+}
+
+
+/* Dropdown Styles */
+.dropdown-menu {
+    background-color: #8B4513; /* Background color of dropdown */
+    border: none; /* Remove default border */
+}
+
+.dropdown-item {
+    color: #fff; /* Text color */
+}
+
+.dropdown-item:hover {
+    background-color: #A0522D; /* Background color on hover */
+}
+
+.navbar-nav {
+    list-style: none;
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 10px 10px 20px;
+}
+
+.navbar-nav li {
+    margin-right: 20px; /* Adjust spacing between navbar items */
+    position: relative; /* Needed for dropdown positioning */
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 110%; /* Position below the navbar item */
+    left: 0;
+    z-index: 1000; /* Ensure it appears above other elements */
+    min-width: 10rem; /* Adjust width if needed */
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 0.5rem 1rem; /* Adjust padding as needed */
+    clear: both;
+    font-weight: 400;
+    color: #ffffff; /* Text color */
+    text-align: left; /* Align text to the left */
+    white-space: nowrap;
+}
+
+.dropdown-menu a:hover {
+    background-color: #A0522D; /* Background color on hover */
+}
+
+.dropdown-item {
+    width: 114%; /* Ensure full width of dropdown items */
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .255em;
+    vertical-align: .25em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+
+.rating {
+    color: #17B169;
+}
+
+.card{
+
+    margin-bottom: 20px;
+}
+
+.card-img-top{
+    height: 200px;
+    object-fit: cover;
+}
+.card-body{
+    height: 250px;
+    overflow: hidden;
+}
+
+.contact-form {
+    margin: 0 auto;
+    max-width: 400px; /* Adjust the maximum width as needed */
+}
+
+.card {
+    margin: 20px auto;
+}
+
+.footer {
+    margin-top: 50px; /* Add some margin to the footer */
+}
